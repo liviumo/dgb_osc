@@ -1,0 +1,264 @@
+{
+  "catalog": {
+    "uuid": "74c8ba1e-5cd4-4ad1-bbfd-d888e2f6c724",
+    "metadata": {
+      "title": "Sample Security Catalog at European Commission",
+      "published": "2025-05-28T00:00:00.000000-04:00",
+      "last-modified": "2025-05-28T13:57:28.355446-04:00",
+      "version": "1.1",
+      "oscal-version": "1.1.2",
+      "remarks": "The following is a short excerpt from the EC Priority Controls"
+    },
+    "groups":[
+        {
+            "id": "AC",
+            "title": "Access control and authentication",
+            "props":[
+                {
+                  "name": "label",
+                  "value": "AC"
+                }
+              ],
+              "groups": [
+                {
+                  "id": "AC10",
+                  "title": "ACCESS MANAGEMENT",
+                  "props": [
+                    {
+                      "name": "label",
+                      "value": "10"
+                    }
+                  ],
+                  "groups": [
+                    {
+                      "id": "AC.10.1",
+                      "title": "Establishing the access management process",
+                      "controls": [
+                      {
+                          "id": "AC.10.1.30",
+                          "title": "Access control and Authentication - AC.10.1.30",
+                          "props": [
+                            {
+                              "name": "label",
+                              "value": "AC.10.1.30"
+                            }
+                          ],
+                          "parts": [
+                          {
+                                  "id": "AC.10.1.30_st",
+                                  "name": "statement",
+                                  "prose": "Access rights shall be inherited on the basis of the attributes of an account or granted, on formal request, specifically to the account. Granted access rights constitute the entitlements of an account."
+                              },
+                          {
+                                  "id": "AC.10.1.30_gdn",
+                                  "name": "guidance",
+                                  "prose": " Guidance: The SO,or the person delegated by the SO, like SSO, shall make sure to document and record any access-rights which have been approved and granted at the IS level(for instance: IS and People name, access-right type (RO/RW), date, purpose …). Those records could eventually be provided later on as an evidence if required. Link to the Access rights management procedure or overall access management process"
+                              }
+                          ]
+                        },
+                      {
+                          "id": "AC.10.1.31",
+                          "title": "Access control and Authentication -AC.10.1.31",
+                          "props": [
+                              {
+                                      "name": "label",
+                                      "value": "10.1.31"
+                                    }
+                              ],
+                          "parts": [
+                              {
+                                      "id": "AC.10.1.31_st",
+                                      "name": "statement",
+                                      "prose": "Where access rights are granted on request, the system owner shall grant them only if:the request has been approved at the proper business level;where the rights grant access to sensitive non-classified information, the request has been approved by the data owner or their authorised representative;the user has provided valid business justification and specified the purpose(s) for which they need the information; andthe verification of the business justification is appropriately documented, so as to enable future inspection and audit."
+                                    },
+                              {
+                                      "id": "AC.10.1.31_gdn",
+                                      "name": "guidance",
+                                      "prose": "Guidance:This control shall be implemented when establishing the access management process"
+                                    }
+                          ]
+                      }
+                      ]
+                    }
+                  ]
+                  },
+                {
+                  "id": "AC11",
+                  "title": "PRIVILEGED ACCOUNTS",
+                  "props": [
+                    {
+                      "name": "label",
+                      "value": "11"
+                    }
+                  ],
+                  "groups": [
+                  {
+                      "id": "AC.11.1",
+                      "title": "General requirements",
+                      "controls": [
+                          {
+                          "id": "AC.11.1.38",
+                          "title": "Access control and Authentication - AC.11.1.38",
+                          "props": [
+                            {
+                              "name": "label",
+                              "value": "AC.11.1.38"
+                            }
+                              ],
+                          "parts": [
+                               {
+                              "id": "AC.11.1.38_stm",
+                              "name": "statement",
+                              "prose": "Administrative privileges allocated to users shall be minimized and granted on a strict and granular ‘need to know’ basis."
+                              },
+                               {
+                              "id": "AC.11.1.38_gdn",
+                              "name": "guidance",
+                              "prose": "Guidance:This controls is applicable only to privileged accounts"
+                              }
+                              ] 
+                          },
+                          {
+                              "id": "AC.11.1.42",
+                              "title": "Access control and Authentication - AC.11.1.42",
+                              "props": [
+                                {
+                                  "name": "label",
+                                  "value": "AC.11.1.42"
+                                }
+                                  ],
+                              "parts": [
+                                   {
+                                  "id": "AC.11.1.42_stm",
+                                  "name": "statement",
+                                  "prose": "Privileged accounts shall be formally reviewed at least every six months."
+                                  },
+                                   {
+                                  "id": "AC.11.1.42_gdn",
+                                  "name": "guidance",
+                                  "prose": "Guidance:This controls is applicable only to privileged accounts. Example of evidence that could optionally be provided (non-mandatory): The existing permissions shall ideally be reviewed on a yearly basis and certainly whenever there is major change (ie: a user being affected to another service/department), in order to avoid privilege creep (gradual accumulation of access rights beyond what an individual needs to do his or her job). This process shall be documented (see above) and could be used as an evidence if necessary, And for those sensitive accounts, the review shall indeed be performed more often. This documentation could then be used as an evidence. Link to priviliged account review report. Possible evidence can also be a meeting minutes, note to the file that the 6 months review was performed"
+                                  }
+                                  ]   
+                          }
+                      ]
+                  }    
+                          ]
+                  }
+                      ]
+
+        },
+        {
+            "id": "AM",
+            "title": "Asset Management",
+            "props":[
+                {
+                  "name": "label",
+                  "value": "AM"
+                }
+              ],
+              "groups": [
+                {
+                    "id": "AM.2.2",
+                    "title": "Commission IT asset inventory",
+                    "controls": [
+                        {
+                        "id": "AM.2.2.2",
+                        "title": "IT Asset Management - AM.2.2.2",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "AM.2.2.2"
+                          }
+                        ],
+                        "parts": [
+                        {
+                                "id": "AM.2.2.2_st",
+                                "name": "statement",
+                                "prose": "IT assets shall be assigned one of the following priority labels; very high, high, major, medium or low; and labelling shall be based on the asset valuation defined by the System Owner as part of the IT Risk Management methodology."
+                            },
+                        {
+                                "id": "AM.2.2.2_gdn",
+                                "name": "guidance",
+                                "prose": "Guidance:This control shall be implemented when determining access rights. Example of evidence that could optionally be provided (non-mandatory): The access-right management process is managed, maintained and documented at the SO level, and may be made available upon request. Link to the Access rights management procedure or overall access management process. Potential evidence could be a link to the agile development process including the risk based approach."
+                            }
+                        ]
+                      }
+                    
+                    ]
+                  }
+
+
+              ]
+        },
+
+        {
+            "id": "B",
+            "title": "Backup security standard",
+            "props":[
+                {
+                  "name": "label",
+                  "value": "B"
+                }
+              ],
+              "groups": [
+                {
+                    "id": "B.6",
+                    "title": "GENERAL REQUIREMENTS",
+                    "controls": [
+                        {
+                        "id": "B.6.1",
+                        "title": "Backups of application business data",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "B.6.1"
+                          }
+                        ],
+                        "parts": [
+                        {
+                                "id": "B.6.1_st",
+                                "name": "statement",
+                                "prose": "Backups of application business data on production systems shall be taken to ensure that all necessary data can be recovered."
+                            },
+                        {
+                                "id": "B.6.1_gdn",
+                                "name": "guidance",
+                                "prose": "Guidance:If the IT system doesn't use DIGIT Services, please fill the manual attestation; If the IT system uses DIGIT Services please check <<Reliant on Service Provider>>.Example of evidence that could optionally be provided (non-mandatory): if not reliant on DIGIT as service provider , backup procedure, backup policy  or backup log extract"
+                            }
+                        ]
+                      },
+                      {
+                        "id": "B.6.2",
+                        "title": "Backup system programs and configuration",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "B.6.2"
+                          }
+                        ],
+                        "parts": [
+                        {
+                                "id": "B.6.2_st",
+                                "name": "statement",
+                                "prose": "A system backup, including programs and configuration of at least one previously reliable instance or image shall be retained as a fallback in case of problems before changes."
+                            },
+                        {
+                                "id": "B.6.2_gdn",
+                                "name": "guidance",
+                                "prose": "Guidance:If the IT system doesn't use DIGIT Services, please fill the manual attestation; If the IT system uses DIGIT Services please check <<Reliant on Service Provider>>.Example of evidence that could optionally be provided (non-mandatory): if not reliant on DIGIT as service provider , backup procedure, backup policy  or backup log extract"
+                            }
+                        ]
+                      }
+                    
+                    ]
+                  }
+
+
+              ]
+        }
+
+    ]
+   
+              
+    }
+}
