@@ -223,7 +223,7 @@
                         {
                                 "id": "B.6.1_gdn",
                                 "name": "guidance",
-                                "prose": "Guidance:If the IT system doesn't use DIGIT Services, please fill the manual attestation; If the IT system uses DIGIT Services please check <<Reliant on Service Provider>>.Example of evidence that could optionally be provided (non-mandatory): if not reliant on DIGIT as service provider , backup procedure, backup policy  or backup log extract"
+                                "prose": "Guidance:If the IT system doesn't use DIGIT Services, please fill the manual attestation; If the IT system uses DIGIT Services please check Reliant on Service Provider.Example of evidence that could optionally be provided (non-mandatory): if not reliant on DIGIT as service provider , backup procedure, backup policy  or backup log extract"
                             }
                         ]
                       },
@@ -245,7 +245,7 @@
                         {
                                 "id": "B.6.2_gdn",
                                 "name": "guidance",
-                                "prose": "Guidance:If the IT system doesn't use DIGIT Services, please fill the manual attestation; If the IT system uses DIGIT Services please check <<Reliant on Service Provider>>.Example of evidence that could optionally be provided (non-mandatory): if not reliant on DIGIT as service provider , backup procedure, backup policy  or backup log extract"
+                                "prose": "Guidance:If the IT system doesn't use DIGIT Services, please fill the manual attestation; If the IT system uses DIGIT Services please check Reliant on Service Provider.Example of evidence that could optionally be provided (non-mandatory): if not reliant on DIGIT as service provider , backup procedure, backup policy  or backup log extract"
                             }
                         ]
                       }
